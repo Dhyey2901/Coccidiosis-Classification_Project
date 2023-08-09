@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s: %(message)s %]')           #used for logging each and everything
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s: %(message)s  ]')           #used for logging each and everything
                     #determining the loging level by info and format for log is time:message
 
 project_name = "cnnClassifier"
@@ -22,7 +22,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials,ipynb"
+    "research/trials,ipynb",
+    "templates/index.html"
 ]
 
 for filepath in list_of_files:
