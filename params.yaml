@@ -2,7 +2,7 @@ AUGMENTATION: True
 IMAGE_SIZE: [224,224,3]   #as per VGG 16 model
 BATCH_SIZE: 16
 INCLUDE_TOP: False        #training custom layer not the complete model
-EPOCHS: 20
+EPOCHS: 1
 CLASSES: 2                #diseased and healthy
 WEIGHTS: imagenet
 LEARNING_RATE: 0.01
